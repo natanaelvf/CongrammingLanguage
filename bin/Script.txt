@@ -1,0 +1,80 @@
+$ LinguagemCongramacao
+$ INDENTACAO IMPORTA PARA OS "para" E PARA OS "se"
+
+$ 'guarda'
+	guarda 50 em x
+	guarda "ola" de ola
+
+$ empurra
+	empurra "ola"
+	empurra 'o'
+	empurra 79
+
+$ puxa
+	puxa $ = 79
+	puxa $ = 'o'
+	puxa , x $ x = "ola"
+
+$ espreita
+	espreita $ = "ola"
+
+$ inc pilha
+	inc espreita $ 5 -> 6
+	inc espreita $ 'a' -> 'b'
+	inc espreita $ "ola" -> "olb"
+
+$ 'guarda variavel de array'
+	guarda concatena "ola" , "adeus" de olaAdeus
+	guarda ["ola","adeus"] de olaAdeus
+	guarda [4,5] de quatroCinco
+
+$ 'diz x' imprime x
+	$ Strings
+		diz "ola"
+		diz 0 de olaAdeus
+	$ int
+		diz 5
+		diz 1 de quatroCinco
+		diz 50
+		diz x
+	$ double
+		diz 5.0
+	$ char
+		diz 'o'
+		diz 'l'
+		diz 'a'
+
+$ 'pede' x, guarda em x o input
+	pede y
+
+$ 'grita' imprime x em capslock
+	GRITA "ola" $ -> OLA
+	GRITA 'o' $ -> O
+
+$ condicional
+	se x > 3
+	se "ola" == ola
+	se "ola" igual ola
+
+$ while
+	enquanto x igual 3
+	enquanto x < 3
+
+$ operacoes ',' -> * / - + 
+	inc x
+	dec x
+	mais 2 , 3
+	menos 2 , 3
+	vezes 2 , 3
+	div 2 , 3
+	raiz 2 , 3
+	eleva 2 , 3
+	mod 2 , 3
+
+$ concatenacao valores em arrays
+	concatena 0 de olaAdeus , 1 de olaAdeus
+
+$ concatena valores
+	concatena "ola" , "adeus"
+
+	para 

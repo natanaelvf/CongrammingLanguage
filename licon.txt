@@ -1,0 +1,3 @@
+$ isto e um comentario
+pede array palavra x
+diz x
